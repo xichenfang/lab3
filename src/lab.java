@@ -29,9 +29,9 @@ public class lab {
         int totalWorde = wordCount.length;
         System.out.print(totalWorde);
 
-        hamlet.replaceAll("[Prince]","@");
-        hamlet.replaceAll("[^@]","");
-        int totalPrince = hamlet.length();
+        String ham = hamlet.replaceAll("[Prince]","@");
+        String hem = ham.replaceAll("[^@]","");
+        int totalPrince = hem.length();
         System.out.print(totalPrince);
 
     }
